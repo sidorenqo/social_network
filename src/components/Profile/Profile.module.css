@@ -1,0 +1,15 @@
+
+
+.item {
+  color: greenyellow
+}
+
+.upper {
+  text-align: center;
+  text-transform: uppercase;
+  color: red
+}
+
+.last {
+  color: blue
+}
