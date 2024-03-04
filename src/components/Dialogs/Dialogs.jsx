@@ -1,5 +1,4 @@
 import React from "react"
-import Redirect from "react"
 import classes from "./Dialogs.module.css"
 import DialogItem from "./Dialogitem/Dialogitem"
 import Message from "./Message/Message"
@@ -20,8 +19,6 @@ const Dialogs = (props) => {
 	let newMessageBody =
 		state.newMessageBody
 	
-	
-	if (!props.isAuth) return <Redirect to={"/login"} />
 	
 	return (
 		<div className={classes.dialogs}>
@@ -73,5 +70,4 @@ const AddMassageForm = (props) => {
 		</Formik>
 	)
 }
-
 export default Dialogs
